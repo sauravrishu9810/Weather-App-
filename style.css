@@ -229,6 +229,20 @@ body{
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
+.owner{
+    background-color: #0b3c61;
+    position:absolute;
+    bottom:5px;
+    right:10px;
+    background: none;
+}
+
+.owner p{
+    font-size: 10px;
+    font-weight: 800;
+    color:rgb(144, 100, 121);
+    font-family: 'Times New Roman', Times, serif; 
+}
 
 
 
