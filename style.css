@@ -37,10 +37,11 @@ body{
     display: flex;    /* we cant use justify content here without flexbox*/
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .search-box input{
-    width: 82%;
+    width: 100%;
     font-size: 17px;
     text-transform: capitalize;
     color: rgb(37, 41, 40);
@@ -48,6 +49,8 @@ body{
     padding:18px 25px;
     border-radius: 20px;
     font-weight: 600;
+    border: none;
+    outline: none;
 
 }
 
@@ -60,15 +63,19 @@ body{
     width:50px;
     font-size: 20px;
     border-radius: 50%;
-    background-color: #e6f5fb;
+    /* background-color: #e6f5fb; */
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     color: #2C91A8;
+    background: none;
+    position: absolute;
+    right: 15px; /* keeps it inside input */
+   
 }
 
 .search-box button:hover{  /*Pseudo class */
     color: #0b3c61;
-    background:rgb(217, 196, 196);
+    background:rgb(216, 204, 204);
 }
 
 .weather-body img {
