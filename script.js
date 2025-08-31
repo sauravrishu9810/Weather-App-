@@ -84,9 +84,3 @@ async function checkWeather(city){
         }
 
 };
-
-
-    
-       
-
-
